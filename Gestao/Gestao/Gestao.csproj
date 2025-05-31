@@ -1,0 +1,84 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Gestao-c644c2fe-9e4c-459f-b924-2de2f7d6b5cd</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gestao.Client\Gestao.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\images\flags\select2\" />
+    <Folder Include="wwwroot\assets\images\landing\features\" />
+    <Folder Include="wwwroot\assets\images\svg\crypto-icons\" />
+    <Folder Include="wwwroot\assets\js\pages\plugins\" />
+    <Folder Include="wwwroot\assets\libs\%40ckeditor\ckeditor5-build-classic\build\" />
+    <Folder Include="wwwroot\assets\libs\%40simonwep\pickr\themes\" />
+    <Folder Include="wwwroot\assets\libs\%40tarekraafat\autocomplete.js\" />
+    <Folder Include="wwwroot\assets\libs\chart.js\plugins\plugin.filler\" />
+    <Folder Include="wwwroot\assets\libs\choices.js\public\" />
+    <Folder Include="wwwroot\assets\libs\choices.js\src\" />
+    <Folder Include="wwwroot\assets\libs\cleave.js\addons\" />
+    <Folder Include="wwwroot\assets\libs\feather-icons\icons\" />
+    <Folder Include="wwwroot\assets\libs\flatpickr\esm\l10n\" />
+    <Folder Include="wwwroot\assets\libs\flatpickr\esm\plugins\" />
+    <Folder Include="wwwroot\assets\libs\flatpickr\esm\types\" />
+    <Folder Include="wwwroot\assets\libs\flatpickr\esm\utils\" />
+    <Folder Include="wwwroot\assets\libs\flatpickr\plugins\confirmDate\" />
+    <Folder Include="wwwroot\assets\libs\flatpickr\plugins\labelPlugin\" />
+    <Folder Include="wwwroot\assets\libs\flatpickr\plugins\monthSelect\" />
+    <Folder Include="wwwroot\assets\libs\flatpickr\plugins\weekSelect\" />
+    <Folder Include="wwwroot\assets\libs\gmaps\docs\scripts\" />
+    <Folder Include="wwwroot\assets\libs\gmaps\docs\styles\" />
+    <Folder Include="wwwroot\assets\libs\gmaps\test\template\" />
+    <Folder Include="wwwroot\assets\libs\gridjs\src\" />
+    <Folder Include="wwwroot\assets\libs\gridjs\theme\" />
+    <Folder Include="wwwroot\assets\libs\jsvectormap\css\" />
+    <Folder Include="wwwroot\assets\libs\jsvectormap\js\" />
+    <Folder Include="wwwroot\assets\libs\jsvectormap\maps\" />
+    <Folder Include="wwwroot\assets\libs\moment\locale\" />
+    <Folder Include="wwwroot\assets\libs\moment\min\" />
+    <Folder Include="wwwroot\assets\libs\moment\src\" />
+    <Folder Include="wwwroot\assets\libs\particles.js\demo\css\" />
+    <Folder Include="wwwroot\assets\libs\particles.js\demo\js\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\components\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\autolinker\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\autoloader\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\command-line\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\copy-to-clipboard\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\custom-class\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\data-uri-highlight\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\diff-highlight\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\download-button\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\file-highlight\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\filter-highlight-all\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\highlight-keywords\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\inline-color\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\jsonp-highlight\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\keep-markup\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\line-highlight\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\line-numbers\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\match-braces\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\normalize-whitespace\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\previewers\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\remove-initial-line-feed\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\show-invisibles\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\show-language\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\toolbar\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\treeview\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\unescaped-markup\" />
+    <Folder Include="wwwroot\assets\libs\prismjs\plugins\wpd\" />
+    <Folder Include="wwwroot\assets\libs\shepherd.js\css\" />
+    <Folder Include="wwwroot\assets\libs\swiper\types\modules\" />
+  </ItemGroup>
+
+</Project>
